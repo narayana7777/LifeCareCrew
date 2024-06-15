@@ -40,6 +40,7 @@ const Login = () => {
       };
     
       return (
+        <div>
         <ThemeProvider theme={defaultTheme}>
           <Grid container component="main" sx={{ height: '100vh' }}>
             <CssBaseline />
@@ -124,6 +125,7 @@ const Login = () => {
             </Grid>
           </Grid>
         </ThemeProvider>
+        </div>
       );
 }
 
